@@ -6,4 +6,4 @@ git pull看起来像git fetch+get merge
 git fetch 更新本地跟踪的远程分支
 git merge 分支合并
 merge和rebase
-11111222
+1111122233
