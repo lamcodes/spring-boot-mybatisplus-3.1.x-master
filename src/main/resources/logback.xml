@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="300 seconds" debug="false">
+    <!-- 定义参数参数  -->
+    <!-- TRACE<DEBUG<INFO<WRAN<ERROR -->
+<!--    <property name="log.level" value="debug"/>-->
+    <property name="log.maxHistory" value="30"/>
+    <property name="log.filePath" value="study"/>
+    <property name="log.pattern"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} -%msg%n"/>
+    <!-- 控制台设置 -->
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+    </appender>
+    <!-- DEBUG -->
+    <appender name="debugAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 文件路径 -->
+<!--        <file>${log.filePath}/logs/debug.log</file>-->
+        <!-- 滚动策略 -->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash; 文件名称 &ndash;&gt;-->
+<!--            <fileNamePattern>-->
+<!--                ${log.filePath}/debug.%d{yyyy-MM-dd}.log.gz-->
+<!--            </fileNamePattern>-->
+<!--            &lt;!&ndash; 文件最大保存历史数量 &ndash;&gt;-->
+<!--            <maxHistory>${log.maxHistory}</maxHistory>-->
+<!--        </rollingPolicy>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--日志文件输出的文件名, %i 是必须要加上去的，是单个日志文件超大小后的切割序号-->
+            <FileNamePattern>
+                ${log.filePath}/debug.%d{yyyy-MM-dd}.%i.log.gz
+            </FileNamePattern>
+            <!--日志文件保留天数-->
+            <MaxHistory>30</MaxHistory>
+            <MaxFileSize>1MB</MaxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+        <!-- 过滤器（仅保留debug优先级的日志信息） -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- INFO -->
+    <appender name="infoAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 文件路径 -->
+<!--        <file>${log.filePath}/logs/info.log</file>-->
+        <!-- 滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+<!--             文件名称 -->
+            <!--日志文件输出的文件名,大小限制和%i 要同时出现，是单个日志文件超大小后的切割序号,
+            没有大小限制的话，gz也不会压缩了，当存在大小限制的时候，限制满足，gz压缩。使用%i写入新文件-->
+            <fileNamePattern>
+                ${log.filePath}/info.%d{yyyy-MM-dd}.log.gz
+            </fileNamePattern>
+<!--            SizeAndTimeBasedRollingPolicy才可以使用下面的大小限制属性-->
+<!--            <MaxFileSize>1MB</MaxFileSize>-->
+            <!-- 文件最大保存历史数量 -->
+            <maxHistory>${log.maxHistory}</maxHistory>
+<!--    按大小分割同一天的-->
+<!--            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
+<!--                            <maxFileSize>1MB</maxFileSize>-->
+<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+        <!-- 过滤器（仅保留info优先级的日志信息） -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- ERROR -->
+    <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 文件路径 -->
+<!--        <file>${log.filePath}/logs/error.log</file>-->
+        <!-- 滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 文件名称 -->
+            <fileNamePattern>
+                ${log.filePath}/error.%d{yyyy-MM-dd}.%i.log.gz
+            </fileNamePattern>
+            <!-- 文件最大保存历史数量 -->
+            <maxHistory>${log.maxHistory}</maxHistory>
+            <maxFileSize>1MB</maxFileSize>
+            <totalSizeCap>10MB</totalSizeCap>
+
+            <!--            <MaxFileSize>1MB</MaxFileSize>-->
+<!--                        <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
+<!--                                        <maxFileSize>1MB</maxFileSize>-->
+<!--                        </timeBasedFileNamingAndTriggeringPolicy>-->
+        </rollingPolicy>
+        <!-- 追加方式记录日志 -->
+        <append>true</append>
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+        <!-- 过滤器（仅保留error优先级的日志信息） -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- 该 logger 只会记录debug 优先级别以上的日志信息 -->
+    <!-- 子logger -->
+    <logger name="com.hyxiao.logback.test" level="${log.level}" additivity="true">
+        <!-- 与append相绑定，logger文件会往这三个对象输出日志信息 -->
+        <appender-ref ref="debugAppender"/>
+        <appender-ref ref="infoAppender"/>
+        <appender-ref ref="errorAppender"/>
+    </logger>
+    <!-- 父logger（上面的logger为子logger），当根logger没有设置 level 时 -->
+    <!-- 则会继承父logger设置的lever等级，即输出 info（warn、error） 级别的信息 -->
+    <root level="info">
+        <appender-ref ref="consoleAppender"/>
+                <appender-ref ref="debugAppender"/>
+                <appender-ref ref="infoAppender"/>
+                <appender-ref ref="errorAppender"/>
+    </root>
+    <!-- 测试环境+开发环境. 多个使用逗号隔开. -->
+<!--    <springProfile name="test,dev">-->
+<!--        <logger name="com.example.demo.controller" level="DEBUG" additivity="false">-->
+<!--            <appender-ref ref="consoleLog"/>-->
+<!--        </logger>-->
+<!--    </springProfile>-->
+
+<!--    &lt;!&ndash; 生产环境. &ndash;&gt;-->
+<!--    <springProfile name="prod">-->
+<!--        <logger name="com.example.demo.controller" level="INFO" additivity="false">-->
+<!--            <appender-ref ref="consoleLog"/>-->
+<!--        </logger>-->
+<!--    </springProfile>-->
+</configuration>
