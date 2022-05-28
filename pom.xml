@@ -19,6 +19,17 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.49</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.7</version>
+        </dependency>
         <!--监控和管理springboot应用-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

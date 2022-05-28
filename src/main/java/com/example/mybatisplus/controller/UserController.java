@@ -1,6 +1,7 @@
 package com.example.mybatisplus.controller;
 
 
+import com.example.mybatisplus.config.ValidationCheck;
 import com.example.mybatisplus.entity.User;
 import com.example.mybatisplus.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
@@ -10,8 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -22,13 +22,14 @@ import java.util.List;
  * @since 2019-06-03
  */
 @RestController
-@RequestMapping("/user")
+@RequestMapping("user")
 @Slf4j
 public class UserController {
 
     @Autowired
     IUserService iUserService;
-    @GetMapping("test1")
+
+    @GetMapping("/test1")
     public String test(){
         User byId = iUserService.getById(1);
         System.out.println(byId.toString());
@@ -48,18 +49,9 @@ public class UserController {
     }
 
     public static void main(String[] args) {
-        List<String> strings = new ArrayList<>();
-        strings.add("lizhi");
-        strings.add("zlk");
-        System.out.println(strings);
-        List<String> strings2 = new ArrayList<>(strings);
-        List<String> strings1 = strings;
-//        strings1.set(0,"world");
-//        System.out.println(strings1.remove(1));
-//        System.out.println("string1"+strings1);
-//        System.out.println("strings:"+strings);
-        strings2.remove(1);
-        System.out.println("strings2"+strings2);
-        System.out.println("strings:"+strings);
+        User user = new User(1,"fda","fdas", LocalDateTime.now());
+
+        ValidationCheck.check(user);
+        System.out.println("===========");
     }
 }
