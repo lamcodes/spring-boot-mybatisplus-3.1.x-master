@@ -1,5 +1,6 @@
 package com.example.mybatisplus.util;
 
+import java.io.File;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -25,5 +26,15 @@ public class LocalDateUtil {
         }
         DateTimeFormatter date = DateTimeFormatter.ofPattern(format);
         return date.format(localDateTime);
+    }
+
+    public static void main(String[] args) {
+        String x = "2020-06-09_12-11:55";
+        String path = "D:\\tttt";
+        File file = new File(path.concat(x));
+//        File file = new File(path);
+        file.mkdirs();
+        boolean directory = file.isDirectory();
+
     }
 }

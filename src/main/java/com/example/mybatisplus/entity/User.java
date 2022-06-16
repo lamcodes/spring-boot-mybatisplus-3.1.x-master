@@ -25,16 +25,16 @@ public class User implements Serializable {
     @MyValidation(message = "姓名不可为空")		//非空校验
     private String name;
     @MyValidation(pattern = "\\d+",message = "年龄只能是数字")
-    private String age;
+    private int age;
 
     private LocalDateTime bir;
 
     public User(){
     }
-    public User(int i, String fda, String fdas, LocalDateTime now) {
+    public User(int i, String name, int age, LocalDateTime now) {
         id=i;
-        name=fda;
-        age=fdas;
+        this.name=name;
+        this.age=age;
         bir=now;
     }
 }

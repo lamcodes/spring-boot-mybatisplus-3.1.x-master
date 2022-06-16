@@ -3,9 +3,12 @@ package com.example.mybatisplus;
 import com.baomidou.mybatisplus.core.conditions.AbstractWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.mybatisplus.entity.User;
+//import com.example.mybatisplus.kafka.KafkaProducer;
 import com.example.mybatisplus.mapper.UserMapper;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import lombok.extern.slf4j.Slf4j;
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -15,13 +18,26 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 @SpringBootTest
+@Slf4j
 public class MybatisplusApplicationTests {
 
 
     @Autowired
     UserMapper userMapper;
+
+//    @Autowired
+//    KafkaProducer kafkaProducer;
+//
+//    @Test
+//    public void testDemo() throws InterruptedException {
+//        log.info("start send");
+//        kafkaProducer.send("I am Lvshen");
+//        log.info("end send");
+//        // 休眠10秒，为了使监听器有足够的时间监听到topic的数据
+//        Thread.sleep(10);
+//    }
     @Test
     public void contextLoads() {
         List<User> users = userMapper.selectList(null);
@@ -41,7 +57,7 @@ public class MybatisplusApplicationTests {
             System.out.println("被删除了");
         }
         User user1 = new User();
-        user1.setBir(LocalDateTime.now()).setAge("11").setId(1).setName("dfa");
+        user1.setBir(LocalDateTime.now()).setAge(11).setId(1).setName("dfa");
 //        userMapper.insert(user1);
 
     }

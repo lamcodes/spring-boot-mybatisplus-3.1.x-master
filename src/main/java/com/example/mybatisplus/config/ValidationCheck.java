@@ -2,7 +2,7 @@ package com.example.mybatisplus.config;
 
 import lombok.extern.slf4j.Slf4j;
 
-import javax.validation.Validation;
+//import javax.validation.Validation;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.*;

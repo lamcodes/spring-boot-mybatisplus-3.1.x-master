@@ -49,7 +49,7 @@ public class UserController {
     }
 
     public static void main(String[] args) {
-        User user = new User(1,"fda","fdas", LocalDateTime.now());
+        User user = new User(1,"fda",11, LocalDateTime.now());
 
         ValidationCheck.check(user);
         System.out.println("===========");
