@@ -26,3 +26,5 @@ BusinessException，自定义异常。统一包装。
 GlobalExceptionHandler，使用@RestControllerAdvice对controller进行增强，可对controller中被 @RequestMapping注解的方法加一些逻辑处理。  
 通过@ControllerAdvice注解可以将对于控制器的全局配置放在同一个位置。  
 使用 @ExceptionHandler(Exception.class)捕获异常，  
+test分支cherrypick设置
+二次更新test
