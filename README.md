@@ -27,3 +27,4 @@ GlobalExceptionHandler，使用@RestControllerAdvice对controller进行增强，
 通过@ControllerAdvice注解可以将对于控制器的全局配置放在同一个位置。  
 使用 @ExceptionHandler(Exception.class)捕获异常，  
 test分支cherrypick设置
+二次更新test
