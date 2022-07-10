@@ -32,7 +32,7 @@ public class ResponseAdvice implements ResponseBodyAdvice<Object> {
     @Override
     public Object beforeBodyWrite(Object o, MethodParameter methodParameter, MediaType mediaType, Class<? extends HttpMessageConverter<?>> aClass,
                                   ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
-        //设置controller响应的ContentType
+        //设置controller响应的ContentType todo
         serverHttpResponse.getHeaders().setContentType(MediaType.APPLICATION_JSON);
         if(o instanceof String){
             return objectMapper.writeValueAsString(Result.success(o));
