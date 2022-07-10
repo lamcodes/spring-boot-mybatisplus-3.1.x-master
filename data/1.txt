@@ -1,0 +1,391 @@
+nihaofdasfasfasfffffffffffffffffffffffffff世界的发生类似点击发送
+范德萨发生发射点发射点发嘎嘎时代光华
+- 更改当前用户密码
+
+passwd，然后输入两次密码
+
+- 安装vim
+
+  apt-get install vim
+
+- 开启ftp，ftp和sftp是两种不同的服务。sftp比ftp安全，java的ftpclient无法访问sftp协议
+
+- ```java
+  sudo apt-get install vsftpd
+  ```
+
+  等待软件自动安装，安装完成以后使用如下 VI 命令打开/etc/[vsftpd](https://so.csdn.net/so/search?q=vsftpd&spm=1001.2101.3001.7020).conf，命令如下：
+
+  ```shell
+  sudo vim /etc/vsftpd.conf
+  ```
+
+  打开以后 vsftpd.conf 文件以后找到如下两行：确保上面两行前面没有“#”，有的话就取消掉
+
+  ```shell
+  local_enable=YES
+  write_enable=YES
+  ```
+
+  修改完 vsftpd.conf 以后保存退出，使用如下命令重启 FTP 服务：
+
+  ```shell
+  sudo /etc/init.d/vsftpd restart
+  ```
+
+开启ftp服务会登录不上301错误
+
+[ftp报错331Please specify password 530 Login incorrect_袁春栋的博客-CSDN博客](https://blog.csdn.net/weixin_45302751/article/details/106267894)
+
+ftpclient的rename方法需要设置源文件（文件夹也可），与目标文件（文件夹），的上级目录都要存在。
+
+### 使用timedatectl 命令设置时区
+
+timedatectl set-timezone Asia/Shanghai
+
+### 选择时区：
+
+```bash
+1 sudo tzselect
+    1.1 选择 亚洲Asia；
+    1.2 继续选择 中国China；
+    1.3 最后 选择北京Beijing。
+```
+
+#### 安装zsh和插件
+
+- 检查当前可用的shell:
+
+```
+cat /etc/shells
+1
+```
+
+> \# /etc/shells: valid login shells
+> /bin/sh /bin/bash
+> usr/bin/bash
+> /bin/rbash
+> /usr/bin/rbash
+> /bin/dash
+> /usr/bin/dash
+
+- 查看当前使用的shell:
+
+```
+echo $SHELL
+1
+```
+
+- 安装zsh shell
+
+```
+sudo apt install zsh
+1
+```
+
+- 切换shell
+
+```
+chsh -s /bin/zsh
+1
+```
+
+- 安装oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+1
+```
+
+- 下载 zsh-syntax-highlighting 语法高亮插件
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh}/plugins/zsh-syntax-highlighting
+1
+```
+
+- 下载 zsh-autosuggestions 自动提示插件
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh}/plugins/zsh-autosuggestions
+1
+```
+
+- 配置.zshrc文件
+
+```
+vim ~/.zshrc
+1
+```
+
+> plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+
+- 更新.zshrc
+
+```
+source ~/.zshrc
+```
+
+docker run -d -p 80:80--name nginx  -v /opt/docker/nginx/conf/conf.d:/etc/nginx/conf.d  -v /opt/docker/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /opt/docker/nginx/html:/usr/share/nginx/html -v /opt/docker/nginx/logs:/var/log/nginx --privileged=true
+
+![image-20220610190528236](https://raw.githubusercontent.com/lamcodes/images/main/img/202206101905299.png)nihaofdasfasfasfffffffffffffffffffffffffff世界的发生类似点击发送
+范德萨发生发射点发射点发嘎嘎时代光华
+- 更改当前用户密码
+
+passwd，然后输入两次密码
+
+- 安装vim
+
+  apt-get install vim
+
+- 开启ftp，ftp和sftp是两种不同的服务。sftp比ftp安全，java的ftpclient无法访问sftp协议
+
+- ```java
+  sudo apt-get install vsftpd
+  ```
+
+  等待软件自动安装，安装完成以后使用如下 VI 命令打开/etc/[vsftpd](https://so.csdn.net/so/search?q=vsftpd&spm=1001.2101.3001.7020).conf，命令如下：
+
+  ```shell
+  sudo vim /etc/vsftpd.conf
+  ```
+
+  打开以后 vsftpd.conf 文件以后找到如下两行：确保上面两行前面没有“#”，有的话就取消掉
+
+  ```shell
+  local_enable=YES
+  write_enable=YES
+  ```
+
+  修改完 vsftpd.conf 以后保存退出，使用如下命令重启 FTP 服务：
+
+  ```shell
+  sudo /etc/init.d/vsftpd restart
+  ```
+
+开启ftp服务会登录不上301错误
+
+[ftp报错331Please specify password 530 Login incorrect_袁春栋的博客-CSDN博客](https://blog.csdn.net/weixin_45302751/article/details/106267894)
+
+ftpclient的rename方法需要设置源文件（文件夹也可），与目标文件（文件夹），的上级目录都要存在。
+
+### 使用timedatectl 命令设置时区
+
+timedatectl set-timezone Asia/Shanghai
+
+### 选择时区：
+
+```bash
+1 sudo tzselect
+    1.1 选择 亚洲Asia；
+    1.2 继续选择 中国China；
+    1.3 最后 选择北京Beijing。
+```
+
+#### 安装zsh和插件
+
+- 检查当前可用的shell:
+
+```
+cat /etc/shells
+1
+```
+
+> \# /etc/shells: valid login shells
+> /bin/sh /bin/bash
+> usr/bin/bash
+> /bin/rbash
+> /usr/bin/rbash
+> /bin/dash
+> /usr/bin/dash
+
+- 查看当前使用的shell:
+
+```
+echo $SHELL
+1
+```
+
+- 安装zsh shell
+
+```
+sudo apt install zsh
+1
+```
+
+- 切换shell
+
+```
+chsh -s /bin/zsh
+1
+```
+
+- 安装oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+1
+```
+
+- 下载 zsh-syntax-highlighting 语法高亮插件
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh}/plugins/zsh-syntax-highlighting
+1
+```
+
+- 下载 zsh-autosuggestions 自动提示插件
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh}/plugins/zsh-autosuggestions
+1
+```
+
+- 配置.zshrc文件
+
+```
+vim ~/.zshrc
+1
+```
+
+> plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+
+- 更新.zshrc
+
+```
+source ~/.zshrc
+```
+
+docker run -d -p 80:80--name nginx  -v /opt/docker/nginx/conf/conf.d:/etc/nginx/conf.d  -v /opt/docker/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /opt/docker/nginx/html:/usr/share/nginx/html -v /opt/docker/nginx/logs:/var/log/nginx --privileged=true
+
+![image-20220610190528236](https://raw.githubusercontent.com/lamcodes/images/main/img/202206101905299.png)nihaofdasfasfasfffffffffffffffffffffffffff世界的发生类似点击发送
+范德萨发生发射点发射点发嘎嘎时代光华
+- 更改当前用户密码
+
+passwd，然后输入两次密码
+
+- 安装vim
+
+  apt-get install vim
+
+- 开启ftp，ftp和sftp是两种不同的服务。sftp比ftp安全，java的ftpclient无法访问sftp协议
+
+- ```java
+  sudo apt-get install vsftpd
+  ```
+
+  等待软件自动安装，安装完成以后使用如下 VI 命令打开/etc/[vsftpd](https://so.csdn.net/so/search?q=vsftpd&spm=1001.2101.3001.7020).conf，命令如下：
+
+  ```shell
+  sudo vim /etc/vsftpd.conf
+  ```
+
+  打开以后 vsftpd.conf 文件以后找到如下两行：确保上面两行前面没有“#”，有的话就取消掉
+
+  ```shell
+  local_enable=YES
+  write_enable=YES
+  ```
+
+  修改完 vsftpd.conf 以后保存退出，使用如下命令重启 FTP 服务：
+
+  ```shell
+  sudo /etc/init.d/vsftpd restart
+  ```
+
+开启ftp服务会登录不上301错误
+
+[ftp报错331Please specify password 530 Login incorrect_袁春栋的博客-CSDN博客](https://blog.csdn.net/weixin_45302751/article/details/106267894)
+
+ftpclient的rename方法需要设置源文件（文件夹也可），与目标文件（文件夹），的上级目录都要存在。
+
+### 使用timedatectl 命令设置时区
+
+timedatectl set-timezone Asia/Shanghai
+
+### 选择时区：
+
+```bash
+1 sudo tzselect
+    1.1 选择 亚洲Asia；
+    1.2 继续选择 中国China；
+    1.3 最后 选择北京Beijing。
+```
+
+#### 安装zsh和插件
+
+- 检查当前可用的shell:
+
+```
+cat /etc/shells
+1
+```
+
+> \# /etc/shells: valid login shells
+> /bin/sh /bin/bash
+> usr/bin/bash
+> /bin/rbash
+> /usr/bin/rbash
+> /bin/dash
+> /usr/bin/dash
+
+- 查看当前使用的shell:
+
+```
+echo $SHELL
+1
+```
+
+- 安装zsh shell
+
+```
+sudo apt install zsh
+1
+```
+
+- 切换shell
+
+```
+chsh -s /bin/zsh
+1
+```
+
+- 安装oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+1
+```
+
+- 下载 zsh-syntax-highlighting 语法高亮插件
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh}/plugins/zsh-syntax-highlighting
+1
+```
+
+- 下载 zsh-autosuggestions 自动提示插件
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh}/plugins/zsh-autosuggestions
+1
+```
+
+- 配置.zshrc文件
+
+```
+vim ~/.zshrc
+1
+```
+
+> plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+
+- 更新.zshrc
+
+```
+source ~/.zshrc
+```
+
+docker run -d -p 80:80--name nginx  -v /opt/docker/nginx/conf/conf.d:/etc/nginx/conf.d  -v /opt/docker/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /opt/docker/nginx/html:/usr/share/nginx/html -v /opt/docker/nginx/logs:/var/log/nginx --privileged=true
+
+![image-20220610190528236](https://raw.githubusercontent.com/lamcodes/images/main/img/202206101905299.png)

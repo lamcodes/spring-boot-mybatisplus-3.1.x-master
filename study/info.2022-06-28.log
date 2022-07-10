@@ -1,0 +1,164 @@
+2022-06-28 19:07:11.918 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 10188 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 19:07:11.920 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 19:07:13.186 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 19:07:13.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 19:07:13.198 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 19:07:13.198 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 19:07:13.382 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 19:07:13.382 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1414 ms
+2022-06-28 19:07:13.790 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-28 19:07:15.012 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 19:07:15.025 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 19:17:14.086 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 12928 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 19:17:14.089 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 19:17:15.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 19:17:15.141 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 19:17:15.141 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 19:17:15.141 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 19:17:15.304 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 19:17:15.305 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1175 ms
+2022-06-28 19:17:15.647 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-28 19:17:16.810 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 19:17:16.820 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 19:26:47.295 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 10992 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 19:26:47.297 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 19:26:48.479 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 19:26:48.487 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 19:26:48.488 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 19:26:48.488 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 19:26:48.551 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 19:26:48.551 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1213 ms
+2022-06-28 19:26:48.895 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-28 19:26:49.116 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-28 19:26:49.802 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-28 19:26:49.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-28 19:26:49.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-28 19:26:49.857 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.874 seconds (JVM running for 4.545)
+2022-06-28 19:26:50.471 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-28 19:26:50.471 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-28 19:26:50.472 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-06-28 19:27:21.403 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-28 19:27:21.405 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-28 21:26:49.962 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:26:49.966 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:26:50.003 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:26:50.006 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:27:02.176 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 4928 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:27:02.176 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 21:27:02.857 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:27:03.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:27:03.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:27:03.313 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:27:03.313 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:27:03.372 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:27:03.372 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1159 ms
+2022-06-28 21:27:03.498 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:27:03.512 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 21:27:45.036 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:27:45.039 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:27:45.063 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:27:45.065 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:27:57.208 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 8440 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:27:57.209 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 21:27:57.902 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:27:58.400 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:27:58.408 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:27:58.409 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:27:58.409 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:27:58.464 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:27:58.464 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1211 ms
+2022-06-28 21:27:58.590 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:27:58.604 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 21:28:15.979 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:28:15.983 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:28:16.006 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:28:16.008 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:28:28.158 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 14140 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:28:28.158 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 21:28:28.841 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:28:29.322 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:28:29.330 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:28:29.331 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:28:29.331 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:28:29.387 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:28:29.388 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1191 ms
+2022-06-28 21:28:29.513 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:28:29.527 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 21:30:26.138 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:30:26.140 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:30:26.140 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:30:26.140 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:30:26.151 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 4496 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:30:26.152 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 21:30:26.863 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:30:27.352 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:30:27.361 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:30:27.362 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:30:27.362 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:30:27.424 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:30:27.424 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1225 ms
+2022-06-28 21:30:27.565 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:30:27.580 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 21:30:43.192 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:30:43.194 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:30:43.194 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:30:43.194 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:30:43.203 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 12128 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:30:43.204 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-28 21:30:43.887 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:30:44.373 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:30:44.382 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:30:44.382 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:30:44.382 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:30:44.440 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:30:44.440 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1197 ms
+2022-06-28 21:30:44.573 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:30:44.587 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 21:31:06.305 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:31:06.308 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:31:06.308 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:31:06.308 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:31:06.318 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 9440 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:31:06.318 [main] INFO  com.example.mybatisplus.MybatisplusApplication -The following 1 profile is active: "dev"
+2022-06-28 21:31:06.995 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:31:07.469 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:31:07.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:31:07.477 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:31:07.478 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:31:07.535 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:31:07.535 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1178 ms
+2022-06-28 21:31:07.663 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:31:07.677 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 21:31:52.051 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-06-28 21:31:52.053 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-06-28 21:31:52.053 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-06-28 21:31:52.053 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-06-28 21:31:52.060 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 2928 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-28 21:31:52.060 [main] INFO  com.example.mybatisplus.MybatisplusApplication -The following 1 profile is active: "dev"
+2022-06-28 21:31:52.555 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-28 21:31:52.764 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-28 21:31:52.770 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-28 21:31:52.770 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-28 21:31:52.770 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-28 21:31:52.896 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-28 21:31:52.896 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 811 ms
+2022-06-28 21:31:52.984 [main] INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2022-06-28 21:31:52.995 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

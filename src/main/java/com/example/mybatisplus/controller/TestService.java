@@ -1,33 +1,29 @@
-package com.example.mybatisplus.service.impl;
+package com.example.mybatisplus.controller;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.mybatisplus.entity.User;
-import com.example.mybatisplus.mapper.UserMapper;
 import com.example.mybatisplus.service.IUserService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
 
 /**
- * <p>
- * 服务实现类
- * </p>
- *
- * @author huzhiting
- * @since 2019-06-03
+ * @Description TODO
+ * @Author zkp
+ * @Date 2022-07-05 21:59
  */
 @Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
+public class TestService {
     @Resource
-    UserMapper userMapper;
-//    @Transactional
-    public User t112() {
+    IUserService iUserService;
+    @Transactional
+    public User t112()  {
         User user = new User();
         user.setAge(11);
         user.setName("张坤朋");
         user.setBir(LocalDateTime.now());
-        userMapper.insert(user);
+        boolean save = iUserService.save(user);
         int i = 10/0;
 //        System.out.println(request.getReader().ready());
 //

@@ -1,0 +1,332 @@
+2022-07-05 21:38:24.427 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.mybatisplus.test.DynamicTest], using SpringBootContextLoader
+2022-07-05 21:38:24.438 [main] INFO  o.s.test.context.support.AbstractContextLoader -Could not detect default resource locations for test class [com.example.mybatisplus.test.DynamicTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-07-05 21:38:24.440 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils -Could not detect default configuration classes for test class [com.example.mybatisplus.test.DynamicTest]: DynamicTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-07-05 21:38:24.682 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Found @SpringBootConfiguration com.example.mybatisplus.MybatisplusApplication for test class com.example.mybatisplus.test.DynamicTest
+2022-07-05 21:38:24.874 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-07-05 21:38:24.933 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1614499b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1468fc85, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47f39279, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63ed5dae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@578198d9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4deca78, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5f65e0c0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@566cc6af, org.springframework.test.context.event.EventPublishingTestExecutionListener@d70dbeb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f8f5d37, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f9cd1e6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ff53704, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34d11c92, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31b289da, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@58486deb]
+2022-07-05 21:38:26.219 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:38:26.223 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:38:26.730 [main] INFO  com.example.mybatisplus.test.DynamicTest -Starting DynamicTest using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 7980 (started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:38:26.731 [main] INFO  com.example.mybatisplus.test.DynamicTest -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:38:28.403 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:38:28.833 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:38:28.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:38:29.178 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:38:29.553 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:38:30.318 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:38:30.332 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:38:30.342 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:38:30.346 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:38:31.112 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+ :: Dynamic Thread Pool :: 
+2022-07-05 21:38:31.136 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:38:31.696 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:38:31.764 [main] INFO  com.example.mybatisplus.test.DynamicTest -Started DynamicTest in 6.071 seconds (JVM running for 13.015)
+2022-07-05 21:38:31.910 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:38:32.386 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:38:32.386 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:38:32.386 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:38:32.387 [dtpExecutor1-1] INFO  com.example.mybatisplus.test.DynamicTest -i am dynamic-tp-test-2 task
+2022-07-05 21:38:32.391 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:38:32.398 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 21:38:41.886 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:38:41.889 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:38:42.115 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 15012 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:38:42.116 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:38:43.001 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:38:43.179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:38:43.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:38:43.657 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 21:38:43.669 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:38:43.670 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 21:38:43.670 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 21:38:43.747 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 21:38:43.747 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1586 ms
+2022-07-05 21:38:44.023 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:38:44.251 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:38:44.592 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:38:44.596 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:38:44.597 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:38:44.612 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:38:44.820 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 21:38:44.836 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:38:45.153 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:38:45.195 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:38:45.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 21:38:45.230 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.717 seconds (JVM running for 8.236)
+2022-07-05 21:38:45.262 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:38:45.488 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 21:38:45.488 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 21:38:45.490 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 2 ms
+2022-07-05 21:45:35.384 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:45:35.384 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:45:35.385 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:45:35.386 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:45:35.389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 21:48:08.220 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:48:08.224 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:48:08.427 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 16124 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:48:08.428 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:48:09.190 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:48:09.343 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:48:09.492 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:48:09.727 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 21:48:09.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:48:09.738 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 21:48:09.738 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 21:48:09.812 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 21:48:09.812 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1340 ms
+2022-07-05 21:48:10.053 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:48:10.296 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:48:10.575 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:48:10.579 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:48:10.581 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:48:10.582 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:48:10.778 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 21:48:10.792 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:48:11.030 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:48:11.066 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:48:11.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 21:48:11.096 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.219 seconds (JVM running for 5.284)
+2022-07-05 21:48:11.123 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:48:11.632 [RMI TCP Connection(2)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 21:48:11.632 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 21:48:11.633 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-05 21:55:32.986 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:55:32.986 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:55:32.986 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:55:32.987 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:55:32.990 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 21:55:36.834 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:55:36.837 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:55:37.017 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 15892 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:55:37.017 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:55:37.615 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:55:37.730 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$12294d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:55:37.754 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:55:37.923 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 21:55:37.930 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:55:37.930 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 21:55:37.930 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 21:55:38.014 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 21:55:38.014 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 956 ms
+2022-07-05 21:55:38.183 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:55:38.512 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:55:38.678 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:55:38.681 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:55:38.682 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:55:38.683 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:55:38.839 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 21:55:38.847 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:55:39.041 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:55:39.069 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:55:39.082 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 21:55:39.092 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.532 seconds (JVM running for 3.218)
+2022-07-05 21:55:39.117 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:55:39.619 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 21:55:39.619 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 21:55:39.620 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-05 21:56:40.977 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:56:40.977 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:56:40.977 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:56:40.978 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:56:40.980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 21:56:56.096 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:56:56.101 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:56:56.322 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 6160 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:56:56.323 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:56:57.184 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:56:57.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:56:57.526 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:56:57.769 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 21:56:57.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:56:57.780 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 21:56:57.780 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 21:56:57.851 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 21:56:57.851 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1482 ms
+2022-07-05 21:56:58.100 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:56:58.315 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:56:58.622 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:56:58.626 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:56:58.628 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:56:58.629 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:56:58.825 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 21:56:58.835 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:56:59.072 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:56:59.108 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:56:59.127 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 21:56:59.139 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.445 seconds (JVM running for 5.656)
+2022-07-05 21:56:59.165 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:56:59.385 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 21:56:59.385 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 21:56:59.385 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-05 21:57:31.876 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:57:31.876 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:57:31.877 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:57:31.878 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:57:31.881 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 21:57:35.352 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:57:35.356 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:57:35.560 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 14192 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:57:35.560 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:57:36.367 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:57:36.519 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:57:36.675 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:57:36.903 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 21:57:36.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:57:36.914 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 21:57:36.914 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 21:57:36.982 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 21:57:36.982 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1365 ms
+2022-07-05 21:57:37.227 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:57:37.442 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:57:37.761 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:57:37.765 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:57:37.767 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:57:37.768 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:57:37.952 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 21:57:37.962 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:57:38.206 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:57:38.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:57:38.254 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 21:57:38.265 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.244 seconds (JVM running for 5.418)
+2022-07-05 21:57:38.291 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:57:38.818 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 21:57:38.818 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 21:57:38.820 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 2 ms
+2022-07-05 21:58:00.915 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:58:00.916 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:58:00.916 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:58:00.917 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:58:00.919 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 21:58:25.686 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 21:58:25.690 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 21:58:25.901 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 1916 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 21:58:25.901 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 21:58:26.740 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 21:58:26.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:58:27.043 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 21:58:27.278 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 21:58:27.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:58:27.287 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 21:58:27.287 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 21:58:27.354 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 21:58:27.354 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1406 ms
+2022-07-05 21:58:27.588 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 21:58:27.792 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 21:58:28.089 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 21:58:28.092 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:58:28.094 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:58:28.095 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 21:58:28.281 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 21:58:28.290 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 21:58:28.524 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 21:58:28.554 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 21:58:28.571 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 21:58:28.581 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.301 seconds (JVM running for 5.626)
+2022-07-05 21:58:28.607 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 21:58:29.030 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 21:58:29.030 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 21:58:29.032 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 2 ms
+2022-07-05 21:58:51.786 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 21:58:51.787 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 21:58:51.787 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 21:58:51.788 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 21:58:51.791 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-05 22:01:23.928 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-05 22:01:23.931 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-05 22:01:24.132 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 12616 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-05 22:01:24.132 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-05 22:01:24.690 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-05 22:01:24.814 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration' of type [com.dtp.starter.common.autoconfigure.BaseBeanAutoConfiguration$$EnhancerBySpringCGLIB$$5ed6f6c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 22:01:24.837 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'dtpApplicationContextHolder' of type [com.dtp.common.ApplicationContextHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-05 22:01:24.987 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-05 22:01:24.993 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-05 22:01:24.993 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-05 22:01:24.994 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-05 22:01:25.157 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-05 22:01:25.157 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 995 ms
+2022-07-05 22:01:25.333 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-05 22:01:25.660 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-05 22:01:25.824 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register commonExecutor, source: beanPostProcessor, name: commonExecutor
+2022-07-05 22:01:25.826 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor1, corePoolSize=1, maxPoolSize=12, keepAliveTime=30, queueType=VariableLinkedBlockingQueue, queueCapacity=1024, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 22:01:25.827 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=ioIntensiveExecutor, corePoolSize=20, maxPoolSize=50, keepAliveTime=30, queueType=TaskQueue, queueCapacity=2048, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 22:01:25.828 [main] INFO  com.dtp.core.DtpRegistry -DynamicTp register dtpExecutor, source: beanPostProcessor, executor: DtpMainProp(threadPoolName=dtpExecutor2, corePoolSize=10, maxPoolSize=15, keepAliveTime=0, queueType=SynchronousQueue, queueCapacity=0, rejectType=AbortPolicy, allowCoreThreadTimeOut=false)
+2022-07-05 22:01:25.970 [main] INFO  com.dtp.core.support.DtpBannerPrinter -
+|  __ \                            (_) |__   __|   
+| |  | |_   _ _ __   __ _ _ __ ___  _  ___| |_ __  
+| |  | | | | | '_ \ / _` | '_ ` _ \| |/ __| | '_ \ 
+| |__| | |_| | | | | (_| | | | | | | | (__| | |_) |
+|_____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|_| .__/ 
+         __/ |                              | |    
+        |___/                               |_|    
+[32m :: Dynamic Thread Pool :: [39;2;0;39m
+2022-07-05 22:01:25.976 [main] INFO  com.dtp.starter.apollo.refresh.ApolloRefresher -DynamicTp refresher, add listener success, namespace: dynamic.yml
+2022-07-05 22:01:26.144 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-05 22:01:26.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-05 22:01:26.186 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-05 22:01:26.197 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.516 seconds (JVM running for 3.178)
+2022-07-05 22:01:26.217 [main] INFO  com.dtp.core.DtpRegistry -DtpRegistry initialization end, remote dtpExecutors: [dtpExecutor1], local dtpExecutors: [ioIntensiveExecutor, dtpExecutor2], local commonExecutors: [commonExecutor]
+2022-07-05 22:01:26.294 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 22:01:26.294 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-05 22:01:26.295 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-05 22:01:42.091 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor2
+2022-07-05 22:01:42.091 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: ioIntensiveExecutor
+2022-07-05 22:01:42.091 [SpringApplicationShutdownHook] INFO  com.dtp.core.spring.DtpLifecycleSupport -Shutting down ExecutorService, poolName: dtpExecutor1
+2022-07-05 22:01:42.091 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-05 22:01:42.093 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

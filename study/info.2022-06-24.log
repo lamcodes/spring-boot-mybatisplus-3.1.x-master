@@ -1,0 +1,171 @@
+2022-06-24 18:54:27.214 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 5200 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 18:54:27.216 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 18:54:28.538 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 18:54:28.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 18:54:28.550 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 18:54:28.550 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 18:54:28.616 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 18:54:28.616 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1344 ms
+2022-06-24 18:54:28.989 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 18:54:29.238 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 18:54:30.126 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 18:54:30.157 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 18:54:30.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 18:54:30.191 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.449 seconds (JVM running for 6.166)
+2022-06-24 18:54:30.627 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 18:54:30.627 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 18:54:30.628 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:03:34.752 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:03:34.755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:03:37.808 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 3428 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:03:37.810 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:03:38.819 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:03:38.827 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:03:38.828 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:03:38.828 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:03:38.882 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:03:38.883 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1032 ms
+2022-06-24 19:03:39.210 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:03:39.405 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:03:40.016 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:03:40.046 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:03:40.062 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:03:40.072 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.594 seconds (JVM running for 4.334)
+2022-06-24 19:03:40.366 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:03:40.366 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:03:40.367 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:06:30.171 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:06:30.174 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:06:34.178 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 4960 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:06:34.181 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:06:35.292 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:06:35.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:06:35.301 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:06:35.301 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:06:35.358 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:06:35.358 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1135 ms
+2022-06-24 19:06:35.684 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:06:35.932 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:06:36.575 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:06:36.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:06:36.617 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:06:36.627 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.76 seconds (JVM running for 4.389)
+2022-06-24 19:06:36.825 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:06:36.825 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:06:36.826 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:09:54.521 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:09:54.524 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:09:57.510 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 1832 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:09:57.512 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:09:58.598 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:09:58.606 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:09:58.607 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:09:58.607 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:09:58.665 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:09:58.666 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1112 ms
+2022-06-24 19:09:59.006 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:09:59.258 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:09:59.847 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:09:59.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:09:59.888 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:09:59.898 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.706 seconds (JVM running for 4.449)
+2022-06-24 19:10:00.077 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:10:00.078 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:10:00.079 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:11:48.407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:11:48.411 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:12:41.926 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 2432 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:12:41.928 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:12:43.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:12:43.052 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:12:43.052 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:12:43.052 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:12:43.113 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:12:43.113 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1140 ms
+2022-06-24 19:12:43.460 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:12:43.697 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:12:44.363 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:12:44.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:12:44.406 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:12:44.417 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.805 seconds (JVM running for 4.431)
+2022-06-24 19:12:44.610 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:12:44.610 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:12:44.611 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:21:09.001 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:21:09.004 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:22:32.381 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 12068 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:22:32.384 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:22:33.563 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:22:33.571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:22:33.572 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:22:33.572 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:22:33.628 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:22:33.628 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1188 ms
+2022-06-24 19:22:33.962 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:22:34.194 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:22:34.840 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:22:34.873 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:22:34.892 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:22:34.904 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.852 seconds (JVM running for 4.528)
+2022-06-24 19:22:35.483 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:22:35.483 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:22:35.484 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:25:52.859 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:25:52.861 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:28:30.156 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 13440 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:28:30.158 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:28:30.886 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:28:30.891 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:28:30.891 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:28:30.891 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:28:30.962 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:28:30.962 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 775 ms
+2022-06-24 19:28:31.110 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:28:31.465 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:28:31.910 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:28:31.932 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:28:31.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:28:31.955 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.005 seconds (JVM running for 2.466)
+2022-06-24 19:28:32.368 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:28:32.368 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:28:32.369 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:46:35.962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:46:35.964 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 19:49:16.517 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 10800 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 19:49:16.519 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 19:49:17.554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 19:49:17.563 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:49:17.563 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 19:49:17.564 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 19:49:17.621 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 19:49:17.621 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1060 ms
+2022-06-24 19:49:17.963 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 19:49:18.183 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 19:49:18.776 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 19:49:18.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 19:49:18.816 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 19:49:18.826 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.624 seconds (JVM running for 4.393)
+2022-06-24 19:49:19.183 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 19:49:19.183 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 19:49:19.184 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 19:52:58.112 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 19:52:58.115 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-06-24 20:06:34.050 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 14400 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-06-24 20:06:34.052 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-06-24 20:06:35.068 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-06-24 20:06:35.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-06-24 20:06:35.077 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-06-24 20:06:35.077 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-24 20:06:35.130 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-06-24 20:06:35.130 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1038 ms
+2022-06-24 20:06:35.470 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-06-24 20:06:35.659 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-06-24 20:06:36.261 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-06-24 20:06:36.289 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-06-24 20:06:36.306 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-06-24 20:06:36.317 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.594 seconds (JVM running for 4.385)
+2022-06-24 20:06:36.830 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 20:06:36.830 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-06-24 20:06:36.831 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-06-24 20:08:13.455 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-06-24 20:08:13.457 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

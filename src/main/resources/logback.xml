@@ -123,7 +123,7 @@
     <!-- 父logger（上面的logger为子logger），当根logger没有设置 level 时 -->
     <!-- 则会继承父logger设置的lever等级，即输出 info（warn、error） 级别的信息 -->
     <root level="info">
-        <appender-ref ref="consoleAppender"/>
+                <appender-ref ref="consoleAppender"/>
                 <appender-ref ref="debugAppender"/>
                 <appender-ref ref="infoAppender"/>
                 <appender-ref ref="errorAppender"/>

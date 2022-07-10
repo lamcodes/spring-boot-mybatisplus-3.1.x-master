@@ -1,0 +1,344 @@
+2022-07-02 17:15:16.381 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:15:16.383 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:15:16.398 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://107.172.217.24:8080!
+2022-07-02 17:15:16.400 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://107.172.217.24:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-07-02 17:15:16.986 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 15836 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:15:16.986 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:15:17.457 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:15:17.668 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:15:17.674 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:15:17.674 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:15:17.674 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:15:17.806 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:15:17.806 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 797 ms
+2022-07-02 17:15:17.965 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:15:18.274 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:15:18.761 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:15:18.782 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:15:18.793 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:15:18.802 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.659 seconds (JVM running for 3.247)
+2022-07-02 17:15:19.306 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:15:19.306 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:15:19.307 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:15:43.292 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:15:43.294 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:16:13.265 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:16:13.268 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:16:13.285 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://107.172.217.24:8080!
+2022-07-02 17:16:13.286 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://107.172.217.24:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-07-02 17:16:14.713 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 11152 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:16:14.714 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:16:15.195 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:16:15.429 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:16:15.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:16:15.435 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:16:15.435 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:16:15.569 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:16:15.569 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 832 ms
+2022-07-02 17:16:15.736 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:16:16.026 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:16:16.450 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:16:16.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:16:16.482 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:16:16.491 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 3.467 seconds (JVM running for 4.032)
+2022-07-02 17:16:16.699 [RMI TCP Connection(2)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:16:16.699 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:16:16.700 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:16:41.820 [Apollo-Config-1] INFO  c.c.f.a.s.property.AutoUpdateConfigChangeListener -Auto update apollo changed value successfully, new value: 是世界放大算法是, key: name, beanName: apolloController, field: com.example.mybatisplus.controller.ApolloController.dateValue
+2022-07-02 17:16:56.225 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:16:56.229 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:16:58.195 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:16:58.217 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:16:58.234 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://107.172.217.24:8080!
+2022-07-02 17:16:58.235 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://107.172.217.24:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-07-02 17:16:58.787 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 15728 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:16:58.787 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:16:59.286 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:16:59.497 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:16:59.503 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:16:59.504 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:16:59.504 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:16:59.635 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:16:59.635 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 825 ms
+2022-07-02 17:16:59.794 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:17:00.115 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:17:00.544 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:17:00.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:17:00.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:17:00.585 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.624 seconds (JVM running for 3.206)
+2022-07-02 17:17:00.722 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:17:00.722 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:17:00.723 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:17:23.853 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:17:23.854 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:22:19.223 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:22:19.225 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:22:19.241 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://101.43.55.200:8081!
+2022-07-02 17:22:19.243 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://101.43.55.200:8081 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-07-02 17:22:25.391 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 15384 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:22:25.391 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:22:25.936 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:22:26.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:22:26.184 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:22:26.185 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:22:26.185 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:22:26.327 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:22:26.328 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 912 ms
+2022-07-02 17:22:26.505 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:22:26.823 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:22:27.262 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:22:27.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:22:27.299 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:22:27.309 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 8.348 seconds (JVM running for 8.971)
+2022-07-02 17:22:27.623 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:22:27.623 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:22:27.624 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:23:49.050 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:23:49.053 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:24:07.251 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:24:07.253 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:24:07.437 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 7212 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:24:07.438 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:24:07.926 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:24:08.143 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:24:08.149 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:24:08.149 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:24:08.150 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:24:08.278 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:24:08.278 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 816 ms
+2022-07-02 17:24:08.436 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:24:08.755 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:24:09.189 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:24:09.213 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:24:09.225 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:24:09.235 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.233 seconds (JVM running for 2.8)
+2022-07-02 17:24:09.680 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:24:09.680 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:24:09.681 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:27:52.702 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:27:52.704 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:27:55.678 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:27:55.681 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:27:55.835 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 13632 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:27:55.836 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:27:56.331 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:27:56.555 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:27:56.561 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:27:56.561 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:27:56.561 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:27:56.664 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:27:56.664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 802 ms
+2022-07-02 17:27:56.823 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:27:57.137 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:27:57.605 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:27:57.627 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:27:57.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:27:57.651 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.226 seconds (JVM running for 2.821)
+2022-07-02 17:27:58.176 [RMI TCP Connection(2)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:27:58.177 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:27:58.177 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-02 17:30:26.038 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:30:26.039 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:30:39.156 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:30:39.158 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:30:39.305 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 7000 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:30:39.306 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:30:39.790 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:30:40.007 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:30:40.012 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:30:40.013 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:30:40.013 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:30:40.141 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:30:40.141 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 812 ms
+2022-07-02 17:30:40.299 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:30:40.640 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:30:41.100 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:30:41.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:30:41.139 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:30:41.150 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.248 seconds (JVM running for 2.826)
+2022-07-02 17:30:41.576 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:30:41.576 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:30:41.576 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-02 17:32:36.016 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:32:36.018 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:32:38.004 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:32:38.006 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:32:38.157 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 2900 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:32:38.157 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:32:38.643 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:32:38.863 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:32:38.868 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:32:38.869 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:32:38.869 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:32:38.972 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:32:38.972 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 790 ms
+2022-07-02 17:32:39.134 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:32:39.430 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:32:39.858 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:32:39.880 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:32:39.891 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:32:39.901 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.138 seconds (JVM running for 2.72)
+2022-07-02 17:32:40.381 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:32:40.381 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:32:40.382 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:33:41.160 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:33:41.162 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:34:45.391 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:34:45.394 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to [DEV] by JVM system property 'env'.
+2022-07-02 17:34:45.549 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 13568 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:34:45.550 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:34:46.035 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:34:46.260 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:34:46.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:34:46.266 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:34:46.266 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:34:46.370 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:34:46.370 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 796 ms
+2022-07-02 17:34:46.529 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:34:46.861 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:34:47.290 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:34:47.316 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:34:47.327 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:34:47.338 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.19 seconds (JVM running for 2.749)
+2022-07-02 17:34:47.834 [RMI TCP Connection(2)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:34:47.834 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:34:47.835 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:35:17.551 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:35:17.553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:35:34.869 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:35:34.872 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:35:34.887 [main] INFO  c.c.f.apollo.internals.DefaultMetaServerProvider -Located meta services from apollo.meta configuration: http://107.172.217.24:8080!
+2022-07-02 17:35:34.888 [main] INFO  com.ctrip.framework.apollo.core.MetaDomainConsts -Located meta server address http://107.172.217.24:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2022-07-02 17:35:37.443 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 16084 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:35:37.443 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:35:37.926 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:35:38.144 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:35:38.149 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:35:38.150 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:35:38.150 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:35:38.284 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:35:38.284 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 817 ms
+2022-07-02 17:35:38.446 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:35:38.731 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:35:39.160 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:35:39.182 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:35:39.192 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:35:39.202 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 4.58 seconds (JVM running for 5.17)
+2022-07-02 17:35:39.332 [RMI TCP Connection(2)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:35:39.332 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:35:39.333 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-02 17:36:04.347 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:36:04.351 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:36:06.267 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:36:06.269 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:36:06.690 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 11592 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:36:06.691 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:36:07.171 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:36:07.385 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:36:07.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:36:07.391 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:36:07.391 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:36:07.522 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:36:07.523 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 810 ms
+2022-07-02 17:36:07.688 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:36:07.999 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:36:08.456 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:36:08.484 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:36:08.496 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:36:08.507 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.489 seconds (JVM running for 3.055)
+2022-07-02 17:36:08.763 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:36:08.764 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:36:08.764 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-02 17:36:46.535 [Apollo-Config-1] INFO  c.c.f.a.s.property.AutoUpdateConfigChangeListener -Auto update apollo changed value successfully, new value: 啊v撒vv啊, key: name, beanName: apolloController, field: com.example.mybatisplus.controller.ApolloController.dateValue
+2022-07-02 17:37:11.605 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:37:11.607 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:37:39.391 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:37:39.394 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:37:39.537 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 6432 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:37:39.538 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:37:40.022 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:37:40.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:37:40.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:37:40.245 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:37:40.245 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:37:40.374 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:37:40.375 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 812 ms
+2022-07-02 17:37:40.532 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:37:40.880 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:37:41.306 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:37:41.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:37:41.344 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:37:41.355 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.208 seconds (JVM running for 2.783)
+2022-07-02 17:37:41.824 [RMI TCP Connection(2)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:37:41.825 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:37:41.825 [RMI TCP Connection(2)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-02 17:37:59.300 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:37:59.302 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:38:00.862 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:38:00.865 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:38:01.011 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 12060 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:38:01.012 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:38:01.504 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:38:01.736 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:38:01.742 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:38:01.742 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:38:01.743 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:38:01.848 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:38:01.848 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 812 ms
+2022-07-02 17:38:02.009 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:38:02.338 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:38:02.773 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:38:02.795 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:38:02.806 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:38:02.815 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.216 seconds (JVM running for 2.84)
+2022-07-02 17:38:03.161 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:38:03.161 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:38:03.162 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:38:31.577 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:38:31.578 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:46:29.305 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:46:29.308 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2022-07-02 17:46:29.464 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 6356 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:46:29.464 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:46:29.953 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:46:30.174 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:46:30.179 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:46:30.180 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:46:30.180 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:46:30.313 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:46:30.314 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 826 ms
+2022-07-02 17:46:30.474 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:46:30.767 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:46:31.203 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:46:31.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:46:31.236 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:46:31.246 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.191 seconds (JVM running for 2.764)
+2022-07-02 17:46:31.763 [RMI TCP Connection(3)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:46:31.763 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:46:31.764 [RMI TCP Connection(3)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2022-07-02 17:47:00.191 [Apollo-Config-1] INFO  c.c.f.a.s.property.AutoUpdateConfigChangeListener -Auto update apollo changed value successfully, new value: 放大算法是发, key: name, beanName: apolloController, field: com.example.mybatisplus.controller.ApolloController.dateValue
+2022-07-02 17:47:14.897 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:47:14.899 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+2022-07-02 17:47:42.964 [main] INFO  c.c.f.f.i.provider.DefaultApplicationProvider -App ID is set to SampleApp by app.id property from System Property
+2022-07-02 17:47:42.966 [main] INFO  c.c.f.f.internals.provider.DefaultServerProvider -Environment is set to [DEV] by JVM system property 'env'.
+2022-07-02 17:47:43.114 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Starting MybatisplusApplication using Java 1.8.0_212 on WIN-QCICFLQ1597 with PID 15304 (D:\code\spring-boot-mybatisplus-3.1.x-master\target\classes started by Administrator in D:\code\spring-boot-mybatisplus-3.1.x-master)
+2022-07-02 17:47:43.114 [main] INFO  com.example.mybatisplus.MybatisplusApplication -No active profile set, falling back to 1 default profile: "default"
+2022-07-02 17:47:43.608 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-07-02 17:47:43.829 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9090 (http)
+2022-07-02 17:47:43.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:47:43.835 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2022-07-02 17:47:43.835 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-07-02 17:47:43.939 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-07-02 17:47:43.939 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 800 ms
+2022-07-02 17:47:44.102 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-07-02 17:47:44.448 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-07-02 17:47:44.905 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver -Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-07-02 17:47:44.928 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-9090"]
+2022-07-02 17:47:44.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-02 17:47:44.950 [main] INFO  com.example.mybatisplus.MybatisplusApplication -Started MybatisplusApplication in 2.234 seconds (JVM running for 2.818)
+2022-07-02 17:47:45.330 [RMI TCP Connection(1)-192.168.123.102] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:47:45.331 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:47:45.331 [RMI TCP Connection(1)-192.168.123.102] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-07-02 17:48:01.277 [Apollo-Config-1] INFO  c.c.f.a.s.property.AutoUpdateConfigChangeListener -Auto update apollo changed value successfully, new value: fdasfa政府和, key: name, beanName: apolloController, field: com.example.mybatisplus.controller.ApolloController.dateValue
+2022-07-02 17:48:43.316 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+2022-07-02 17:48:43.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

@@ -1,12 +1,12 @@
 package com.example.mybatisplus.entity;
 
-import java.io.Serializable;
-import java.time.LocalDateTime;
-
 import com.example.mybatisplus.config.MyValidation;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -33,6 +33,12 @@ public class User implements Serializable {
     }
     public User(int i, String name, int age, LocalDateTime now) {
         id=i;
+        this.name=name;
+        this.age=age;
+        bir=now;
+    }
+    public User( String name, int age, LocalDateTime now) {
+
         this.name=name;
         this.age=age;
         bir=now;
